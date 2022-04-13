@@ -1,0 +1,7 @@
+body{padding: 100px;}
+#transition{display: none;}
+.deposite{background-color: brown;}
+.withdraw{background-color: chocolate;}
+.balance{background-color: darkorange;}
+.status{padding: 20px; margin: 5px; color: aliceblue; border-radius: 10px;}
+.submit-area{padding: 20px; margin: 5px; border-radius: 10px;box-shadow: 5px 4px 10px ;}

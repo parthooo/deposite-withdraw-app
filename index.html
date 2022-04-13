@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banl</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-area" >
+        <h1 class="text-center">Welcome to Bank</h1>
+        <div id="submit-area">
+            <input type="text" class="form-control" placeholder="user id">
+            <br>
+            <input type="password" class="form-control" placeholder="password" name="" id="">
+            <br>
+            <button id="login" class="btn btn-success">Enter</button>
+        </div>
+    </div>
+    <div id="transition">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposite status">
+                    <h5>Deposite</h5>
+                    <h2>$ <span id="currentDeposite">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw status">
+                    <h5>Withdraw</h5>
+                    <h2>$ <span id="currentWithdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2>$ <span id="currentBalance">00</span></h2>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <h4>Deposite</h4>
+                    <input id="depositeAmount" type="text" class="form-control" placeholder="$ amount you want to Deposite">
+                    <br>
+                    <button id="addDeposite" class="btn btn-success">Deposite</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <h4>Withdraw</h4>
+                    <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount you want to Deposite">
+                    <br>
+                    <button id="addwithdraw" class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
